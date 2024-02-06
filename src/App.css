@@ -1,5 +1,58 @@
+/* Importing Google font - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/barbie');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background-color: white;
+    scroll-behavior:smooth !important;
+    /* background-color: #df1863; */
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #1D1E23;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h1 span {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+h1 span::before {
+    content: "";
+    height: 30px;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    background: #BD53ED;
+    transform: translateY(-45%);
+    animation: blink 0.7s infinite;
+}
+
+h1 span.stop-blinking::before {
+    animation: none;
+}
+
+@keyframes blink {
+    50% { opacity: 0 }
+}
 .App {
   text-align: center;
+  /* background-color: #df1863; */
 }
 
 .App-logo {
@@ -26,6 +79,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#nama {
+  font-family: "Barbie", sans-serif;
+  font-size: 150px;
 }
 
 @keyframes App-logo-spin {
