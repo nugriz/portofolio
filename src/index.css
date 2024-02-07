@@ -2,6 +2,18 @@
   scroll-behavior:smooth !important;
 }
 
+@media screen and (max-width: 480px) {
+  .show-on-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
