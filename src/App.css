@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    background-color: white;
+    background-color: #743089;
     scroll-behavior:smooth !important;
     /* background-color: #df1863; */
 }
@@ -82,8 +82,8 @@ h1 span.stop-blinking::before {
 }
 
 #nama {
-  font-family: "Barbie", sans-serif;
-  font-size: 150px;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
 }
 
 @keyframes App-logo-spin {

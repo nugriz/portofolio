@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   const dynamicText = document.querySelector("h1 span");
-  const words = ['Ketua Jamet',"Gopal suka makan","Lont* Curug", "Botita Manjalita"];
+  const words = ['Back-end Engineer',"Web Developer","Fullstack Engineer", "Software Developer", "Programmer"];
 
   // Variables to track the position and deletion status of the word
   let wordIndex = 0;
