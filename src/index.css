@@ -27,11 +27,22 @@
 }
 
 #footer {
-  margin-top: 3500px;
+  margin-top: 2690px;
 }
 
 #Portofolio {
-  top: 3800px;
+  top: 2850px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #footer {
+    margin-top: 5350px;
+  }
+  
+  #Portofolio {
+    top: 5600px;
+  }
 }
 
 .porto {
