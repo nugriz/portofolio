@@ -28,16 +28,18 @@
 
 #footer {
   margin-top: 2690px;
+  height: 15vh;
 }
 
 #Portofolio {
-  top: 2950px;
+  top: 2850px;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   #footer {
     margin-top: 5350px;
+    height: 1vh;
   }
   
   #Portofolio {
