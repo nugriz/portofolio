@@ -1,5 +1,8 @@
 ::-webkit-scrollbar {
-  display: none;
+  height: 0;
+  width: 14px;
+  border: 1px solid #d5d5d5;
+  background: whitesmoke;
 }
 
 #insta {
@@ -37,6 +40,10 @@
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   #footer {
     margin-top: 5350px;
     height: 1vh;
