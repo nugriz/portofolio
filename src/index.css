@@ -26,6 +26,14 @@
   }
 }
 
+#footer {
+  margin-top: 3500px;
+}
+
+#Portofolio {
+  top: 3800px;
+}
+
 .porto {
   border-radius: 30px;
   margin: auto;
