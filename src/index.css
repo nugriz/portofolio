@@ -30,12 +30,12 @@
 }
 
 #footer {
-  margin-top: 2690px;
+  margin-top: 3000px;
   height: 15vh;
 }
 
 #Portofolio {
-  top: 2850px;
+  top: 3250px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -45,12 +45,12 @@
   }
 
   #footer {
-    margin-top: 5350px;
+    margin-top: 6750px;
     height: 1vh;
   }
   
   #Portofolio {
-    top: 5600px;
+    top: 7000px;
   }
 }
 
